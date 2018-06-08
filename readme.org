@@ -1,6 +1,6 @@
 * [[intro.org][introduction]]
 
-a list of some introductory materials.
+a list of introductory materials.
 
 * [[todo.org][todo]]
 
