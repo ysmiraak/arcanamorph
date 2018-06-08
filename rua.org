@@ -1,0 +1,22 @@
+* [[https://ncatlab.org/nlab/show/representable+functor][representable]]
+
+- [[https://ncatlab.org/nlab/show/functor][functoriality]]
+- [[https://ncatlab.org/nlab/show/hom-functor][hom-functor]]
+- [[https://ncatlab.org/nlab/show/Yoneda+embedding][yoneda embedding]]
+- [[https://ncatlab.org/nlab/show/Yoneda+lemma][yoneda lemma]]
+- [[https://ncatlab.org/nlab/show/natural+transformation][naturality]]
+
+* [[https://ncatlab.org/nlab/show/universal+construction][universal]]
+
+- [[https://ncatlab.org/nlab/show/terminal+object][terminal]] and [[https://ncatlab.org/nlab/show/initial+object][initial]]
+- [[https://ncatlab.org/nlab/show/cartesian+product][product]] and [[https://ncatlab.org/nlab/show/coproduct][coproduct]]
+- [[https://ncatlab.org/nlab/show/pullback][pullback]] and [[https://ncatlab.org/nlab/show/pushout][pushout]]
+- [[https://ncatlab.org/nlab/show/equalizer][equalizer]] and [[https://ncatlab.org/nlab/show/coequalizer][coequalizer]]
+- [[https://ncatlab.org/nlab/show/limit][limit]] and [[https://ncatlab.org/nlab/show/colimit][colimit]]
+- [[https://ncatlab.org/nlab/show/universality][universality]]
+
+* [[https://ncatlab.org/nlab/show/adjunction][adjunction]]
+
+- [[https://ncatlab.org/nlab/show/triangle+identities][triangle identity]]
+- [[https://ncatlab.org/nlab/show/adjoint+functor][adjoint functor]]
+- [[https://ncatlab.org/nlab/show/monad][monad]]

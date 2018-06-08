@@ -1,0 +1,29 @@
+* string diagram
+
+https://ncatlab.org/nlab/show/string+diagram
+
+* duality
+
+https://ncatlab.org/nlab/show/duality
+
+* diagonal argument
+
+https://ncatlab.org/nlab/show/diagonal+argument
+
+* kan extension
+
+https://ncatlab.org/nlab/show/end
+
+https://ncatlab.org/nlab/show/Kan+extension
+
+https://ncatlab.org/nlab/show/Yoneda+extension
+
+* algebra
+
+https://ncatlab.org/nlab/show/operad
+
+https://ncatlab.org/nlab/show/algebra+over+an+operad
+
+https://ncatlab.org/nlab/show/module+over+a+monad
+
+https://ncatlab.org/nlab/show/algebra+for+an+endofunctor

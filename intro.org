@@ -1,0 +1,58 @@
+* hierographa
+
+the [[https://ncatlab.org/nlab/show/HomePage][nlab]] is the categorical wiki.  the articles are dense and deep.
+
+[[http://www.maths.ed.ac.uk/~aar/papers/maclanecat.pdf][categories work]] is the classical textbook.  for mathematicians tho.
+
+* motivation
+
+[[https://www.youtube.com/watch?v=ho7oagHeqNc&feature=youtu.be][Eugenia Cheng]]
+
+category theory in life.
+
+[[http://www.j-paine.org/dobbs/why_be_interested_in_categories.html][Jocelyn Ireson-Paine]]
+
+artificial intelligence.
+
+[[http://rs.io/why-category-theory-matters/][Robb Seaton]]
+
+various applications.
+
+* quick video intro
+
+[[https://www.youtube.com/watch?v=o6L6XeNdd_k][Tom LaGatta]]
+
+from a mathematical point of view.
+
+[[https://www.youtube.com/watch?v=V10hzjgoklA][Philip Wadler]]
+
+from a programming point of view.
+
+[[https://www.youtube.com/watch?v=IBeceQHz2x8][David I. Spivak]]
+
+also from a programming point of view, in six parts.
+
+* proper intro
+
+[[http://www.simonwillerton.staff.shef.ac.uk/TheCatsters/][The Catsters]]
+
+a series of short and mostly self-contained videos.
+
+[[https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/][Bartosz Milewski]]
+
+a series of blogs and videos for programmers,
+with examples in haskell (no previous knowledge required).
+
+[[http://category-theory.mitpress.mit.edu/][David I. Spivak]]
+
+an introductory book filled with examples and applications.
+
+[[https://arxiv.org/abs/1803.05316][Brendan Fong, David I. Spivak]]
+
+applied category theory.
+
+[[http://angg.twu.net/MINICATS/awodey__category_theory.pdf][Steve Awodey]]
+
+[[https://arxiv.org/abs/1612.09375][Tom Leinster]]
+
+[[http://www.logicmatters.net/categories/][Peter Smith]]
