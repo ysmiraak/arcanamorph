@@ -1,13 +1,6 @@
-* [[intro.org][introduction]]
+- [[intro.org][a list of introductory materials]]
+- [[todo.org][topics to cover]]
 
-a list of introductory materials.
-
-* [[todo.org][todo]]
-
-topics to cover.
-
-* summary
-
-summaries for topics covered.
+topics covered
 
 - [[rua.org][representable, universal, adjunction]]
