@@ -43,16 +43,14 @@ a series of short and mostly self-contained videos.
 a series of blogs and videos for programmers,
 with examples in haskell (no previous knowledge required).
 
-[[http://category-theory.mitpress.mit.edu/][David I. Spivak]]
-
-an introductory book filled with examples and applications.
-
-[[https://arxiv.org/abs/1803.05316][Brendan Fong, David I. Spivak]]
-
-applied category theory.
-
 [[http://angg.twu.net/MINICATS/awodey__category_theory.pdf][Steve Awodey]]
+
+[[https://math.mit.edu/~dspivak/teaching/sp13/CT4S.pdf][David I. Spivak]]
+
+[[http://www.math.jhu.edu/%7Eeriehl/context.pdf][Emily Riehl]]
 
 [[https://arxiv.org/abs/1612.09375][Tom Leinster]]
 
 [[http://www.logicmatters.net/categories/][Peter Smith]]
+
+[[https://arxiv.org/abs/1803.05316][Brendan Fong, David I. Spivak]]
