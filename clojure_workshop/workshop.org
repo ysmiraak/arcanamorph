@@ -1,0 +1,228 @@
+#+TITLE: workshop
+#+AUTHOR: kuan yu @@latex:\\@@ ysmiraak@gmail.com
+#+DATE: november 03, 2018
+#+OPTIONS: toc:nil email:nil
+#+STARTUP: beamer
+#+LaTeX_CLASS: beamer
+#+LATEX_HEADER: \setbeamertemplate{footline}[frame number]
+#+LATEX_HEADER: \setsansfont{DejaVu Sans}
+#+LATEX_HEADER: \setmonofont{DejaVu Sans Mono}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \definecolor{darkblue}{rgb}{0,0,0.5}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,allcolors=darkblue}
+#+LATEX_HEADER: \usepackage{minted}
+#+LATEX_HEADER: \usepackage{tikz-cd}
+* computation                                                       :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+** compute /=putare=/                                               :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- to cleanse, to trim
+- to settle, to value, to judge, to think
+** program /=πρόγραμμα=/                                            :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- edict, decree, commandment
+** function /=functio=/                                             :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- performance, execution
+** what type of functions is a computer program?                    :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+* machines                                                          :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+** μαθηματικός                                                      :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+#+BEGIN_SRC haskell
+-- euclid's algorithm
+gcd a 0 = a
+gcd a b = gcd b (mod a b)
+#+END_SRC
+** turing machine                                                   :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- turing tarpit
+** lambda calculus                                                  :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- alonzo church
+- alan turing
+- haskell cury
+* imperative                                                        :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+- von neumann architecture
+** mess of complexity                                               :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- mutable states (combinatorics)
+- concurrency, resource management (space)
+- asynchronous interaction (time)
+- code base (human)
+** solution
+- lambda the ultimate[fn:1]
+* lisp                                                              :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+** born in 1958                                                     :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- scheme, topos, fibred category (alexander grothendieck)
+- monad (roger godement)
+- adjoint functor, limit (daniel kan)
+- lisp (john mccarthy)
+** mccarthy 1960[fn:2]                                              :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- recursive functions
+- symbolic expressions
+- symbolic representation for recursive functions
+- recursive evaluation of symbolic expressions
+* lisp family[fn:3]                                                 :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+- 1975 scheme
+- 1984 common lisp
+- 2007 clojure
+** 1980s ai winter                                                  :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- the fall of lisp machines
+- the free software foundation, the gnu project, gnu emacs, emacs lisp (richard stallman)
+* gnu guile[fn:4]                                                   :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+\centering\includegraphics[height=0.8\textheight]{gnu-guile.png}
+* clojure                                                           :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+- creator and bdfl: rich hickey
+** hosts                                                            :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- [[https://clojure.org/][clojure]]: jvm
+- [[https://clojurescript.org/][clojurescript]]: javascript
+- (clojureclr: clr)
+** build tools
+- [[https://leiningen.org/][leiningen]]
+- [[http://boot-clj.com/][boot]]
+* 2018 survey[fn:5]                                                 :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+\centering\includegraphics[height=0.8\textheight]{survey.pdf}
+* clojure ide                                                       :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+- emacs ([[https://docs.cider.mx/en/latest/][cider]])
+** miscellaneous                                                    :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- vim ([[https://github.com/tpope/vim-fireplace][fireplace]])
+- intellij ([[https://cursive-ide.com/][cursive]])
+- visual studio code ([[https://marketplace.visualstudio.com/items?itemName=cospaia.clojure4vscode][clojurevscode]], [[https://marketplace.visualstudio.com/items?itemName=cospaia.clojure4vscode][calva]])
+- atom ([[https://atom.io/packages/proto-repl][proto repl]])
+- sublime text ([[https://github.com/wuub/SublimeREPL][sublimerepl]])
+- eclipse ([[https://doc.ccw-ide.org/][counterclockwise]])
+- [[http://lighttable.com/][light table]] (written in clojurescript)
+- [[https://sekao.net/nightcode/][nightcode]] (written in clojure)
+* clojure intro                                                     :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+* process philosophy                                                :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+heraclitus, plato, ... , alfred whitehead
+\vfill
+- λόγος *word*
+- πάντα ῥεῖ *everthing flows*
+- ὁδὸς ἄνω κάτω *the way up and down*
+- πυρὸς τροπαὶ *the turnings of fire*
+- δίκη ἔρις *strife is justice*
+\vfill
+that which always was and is and will be everlasting fire ...
+all is exchanged for fire and fire for all
+* summary                                                           :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+** functional programming                                           :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- sets you free by giving you control over the turnings of fire
+- solves complexity by compositionality
+** computational trinitarianism                                     :B_block:
+:PROPERTIES:
+:BEAMER_env: block
+:END:
+- logic (proof theory)
+- lambda calculus (type theory)
+- category theory
+* the second coming --- william butler yeats                        :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+#+BEGIN_VERSE
+turning and turning in the widening gyre
+the falcon cannot hear the falconer;
+things fall apart; the centre cannot hold;
+mere anarchy is loosed upon the world,
+the blood-dimmed tide is loosed, and everywhere
+the ceremony of innocence is drowned;
+the best lack all conviction, while the worst
+are full of passionate intensity.
+#+END_VERSE
+* the second coming --- william butler yeats                        :B_frame:
+:PROPERTIES:
+:BEAMER_env: frame
+:END:
+#+BEGIN_VERSE
+surely some revelation is at hand;
+surely the second coming is at hand.
+the second coming! hardly are those words out
+when a vast image out of spiritus mundi
+troubles my sight: somewhere in sands of the desert
+a shape with lion body and the head of a man,
+a gaze blank and pitiless as the sun,
+is moving its slow thighs, while all about it
+reel shadows of the indignant desert birds.
+the darkness drops again; but now i know
+that twenty centuries of stony sleep
+were vexed to nightmare by a rocking cradle,
+and what rough beast, its hour come round at last,
+slouches towards bethlehem to be born?
+#+END_VERSE
+* Footnotes
+[fn:1] http://lambda-the-ultimate.org/papers
+[fn:2] http://jmc.stanford.edu/articles/recursive.html
+[fn:3] https://en.wikipedia.org/wiki/List_of_Lisp-family_programming_languages
+[fn:4] https://www.gnu.org/software/guile/
+[fn:5] https://insights.stackoverflow.com/survey/2018
