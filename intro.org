@@ -6,9 +6,9 @@ the [[https://ncatlab.org/nlab/show/HomePage][nlab]] is the categorical wiki.  t
 
 * motivation
 
-[[https://www.youtube.com/watch?v=ho7oagHeqNc&feature=youtu.be][Eugenia Cheng]]
+[[https://www.youtube.com/watch?v=8emPcpfqPRU][Eugenia Cheng]]
 
-category theory in life.
+how to think.
 
 [[http://www.j-paine.org/dobbs/why_be_interested_in_categories.html][Jocelyn Ireson-Paine]]
 
