@@ -1,0 +1,72 @@
+* intro
+
+- sexp and eval
+- functions vs macros
+- vectors and hash-maps
+
+* exercises
+
+elementary exercises on [[http://www.4clojure.com/problems][4clojure]]
+
+* examples
+
+[[https://clojure.org/api/cheatsheet][cheatsheet]]
+
+** basics
+
+- set! println
+
+- fn def let do quote
+- if and or
+
+- apply partial comp
+
+*** examples
+
+- map
+- reduce (and reductions)
+- eval* (eval til fixed point, using loop recur)
+
+** collections
+
+|          | sequential | associative | random access |
+|----------+------------+-------------+---------------|
+| list     | yes        |             |               |
+| vector   | yes        | yes         | yes           |
+| hash-map |            | yes         | yes           |
+| hash-set |            |             | yes           |
+
+- any: empty into conj count seq
+- sequential: (first rest next nth) peek pop
+- associative: assoc dissoc update
+- random access: contains? get
+
+- list: cons
+- vector: subvec rseq
+- hash-map: merge vals keys zipmap
+- hash-set: disj clojure.set
+
+- seq: take drop filter
+
+*** examples
+
+- map-vals
+- frequencies
+- matmul
+
+** sequence
+
+- iterate repeat cycle partition
+- for doseq
+
+*** examples
+
+- approx e
+
+** examples
+
+- functional if with church encoding
+
+* exercises
+
+some more advanced exercises
